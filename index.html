@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sage's Journal Review · For Christopher</title>
-<!-- Private review for Christopher. Unguessable address, noindex, robots Disallow. Not linked from the Alchemy Lab, on his word 2026-10-15. -->
+<!-- Review for Christopher. Unguessable address, noindex, robots Disallow. Linked from the Alchemy Lab, My Healing, on his word 2026-10-15. -->
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 <meta name="author" content="Sage, Practice Manager for Christopher Hager">
 <meta name="theme-color" content="#1B0C20">
@@ -185,7 +185,7 @@ details[open] summary::before{content:"-";}
 .thread .so b{font-family:var(--head);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--h);margin-right:6px;}
 
 /* Memory */
-.mem{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.mem{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
 .mem .box{background:var(--card);border:1px solid rgba(239,231,218,.08);border-top:3px solid var(--m);border-radius:8px;padding:18px 18px 14px;}
 .mem h4{margin:0 0 10px;font-family:var(--head);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--m);display:flex;gap:8px;align-items:center;}
 .mem ul{margin:0;padding-left:18px;color:var(--dim);font-size:.93rem;}
@@ -200,6 +200,24 @@ details[open] summary::before{content:"-";}
 .q .ask{margin:0;font-family:var(--display);font-size:1.35rem;line-height:1.3;color:#fff;}
 .q .how{margin:8px 0 0;font-family:var(--head);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);}
 .q.lead{border-color:var(--gold);box-shadow:0 0 40px -18px var(--gold);}
+.q{cursor:pointer;transition:opacity .6s,transform .6s,border-color .25s,box-shadow .25s;}
+.q:hover,.q:focus-visible{border-color:var(--teal);box-shadow:0 0 40px -16px var(--teal);outline:none;}
+.ans{margin:14px 0 0;padding:12px 14px;border-radius:6px;background:rgba(95,192,174,.08);border:1px solid rgba(95,192,174,.28);color:var(--ink);font-size:.95rem;}
+.ans b{display:block;font-family:var(--head);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);margin-bottom:4px;}
+.ans q{font-family:var(--display);font-style:italic;font-size:1.12rem;color:#fff;quotes:"\201C" "\201D";}
+.hint{margin-top:12px;display:inline-flex;align-items:center;gap:8px;font-family:var(--head);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);padding:6px 12px;border-radius:20px;border:1px dashed rgba(217,166,72,.5);transition:all .25s;}
+.q:hover .hint{background:var(--gold);color:var(--crown);border-style:solid;}
+.q.open .hint{background:transparent;color:var(--faint);border-color:rgba(239,231,218,.2);}
+.ref{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s ease;}
+.ref>div{overflow:hidden;}
+.q.open .ref{grid-template-rows:1fr;}
+.refin{margin-top:12px;padding:16px 18px;border-left:3px solid var(--gold);background:rgba(217,166,72,.07);border-radius:0 6px 6px 0;font-size:.94rem;color:var(--dim);}
+.refin h5{margin:0 0 8px;font-family:var(--head);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);}
+.refin ol{margin:0;padding-left:20px;}
+.refin li{margin-bottom:6px;}
+.refin b{color:#fff;font-weight:600;}
+.refin q{font-family:var(--display);font-style:italic;font-size:1.08rem;color:#fff;quotes:"\201C" "\201D";}
+.refin a{color:var(--gold);}
 
 /* Owe */
 .owe{background:linear-gradient(170deg,#241326,#170B1A);border:1px solid rgba(229,139,176,.35);border-radius:10px;padding:26px 26px 18px;position:relative;}
@@ -257,7 +275,7 @@ footer p{margin:10px 0 0;}
 
 <header class="hero dots" id="top">
   <div class="wide">
-    <div class="brand"><img src="./assets/mark-light.png" alt="">Christopher Hager · Private</div>
+    <a class="brand" href="https://hagerca.github.io/#healing" style="text-decoration:none"><img src="./assets/mark-light.png" alt="">The Alchemy Lab · My Healing</a>
     <svg class="bk" viewBox="0 0 400 230" aria-hidden="true">
       <defs>
         <radialGradient id="sunG"><stop offset="0" stop-color="#F7D46A"/><stop offset="1" stop-color="#F7D46A" stop-opacity="0"/></radialGradient>
@@ -289,8 +307,8 @@ footer p{margin:10px 0 0;}
   <div class="wide">
     <h2>Weeks reviewed</h2>
     <div class="wk-row">
-      <div class="wk now"><small>This review</small><b>Oct 9 to 15, 2026</b><span>Fri to Thu · 7 days · 70 sessions logged</span><em>The Robe Week</em></div>
-      <div class="wk ghost"><b>Oct 16 to 22</b><span>Next review · Thu Oct 22</span><em>Older weeks stack here, newest first</em></div>
+      <div class="wk now"><small>This review</small><b>Oct 9 to 15, 2026</b><span>Fri to Thu · 7 days · 70 sessions logged</span><em>The Robe Week · answered Oct 15</em></div>
+      <div class="wk ghost"><b>Oct 16 to 22</b><span>Next review · Thu Oct 22 · Thursdays, or whenever you ask</span><em>Older weeks stack here, newest first</em></div>
       <div class="wk ghost"><b>The archive</b><span>Review no. 1 · started Oct 15</span><em>Every past week stays readable</em></div>
     </div>
   </div>
@@ -408,6 +426,10 @@ footer p{margin:10px 0 0;}
       <li>The price change landing with the new website</li>
       <li>Every Sage reply to a client goes out branded</li>
       <li>Your name: Christopher</li></ul></div>
+    <div class="box" style="--m:#D9A648"><h4><span id="mi4"></span>Recorded from your answers</h4><ul>
+      <li><b>New prices from the website launch:</b> $555 an hour, $777 for 90 minutes. Written into your offerings and the decision log.</li>
+      <li><b>New project:</b> the website with Tyler, fully live by Tue Nov 10, launched Wed Nov 11.</li>
+      <li><b>This review:</b> Thursdays, plus any day you ask.</li></ul></div>
     <div class="box" style="--m:#F2C230"><h4><span id="mi3"></span>One wobble</h4><ul>
       <li>Tuesday's end-of-day note said the second Collective member's choice was still open. She had chosen and been refunded on Monday. Wednesday's plan had it right.</li>
       <li>On that weekly target, only Friday's 8:30 AM referral payout is left.</li></ul></div>
@@ -417,7 +439,7 @@ footer p{margin:10px 0 0;}
 <!-- QUESTIONS -->
 <section class="sec" id="questions" style="--c:#D9A648"><div class="wide">
   <div class="sec-head solo"><div><p class="eyebrow">For you · My questions</p><h2 class="big">What I want to <em>ask you</em></h2>
-    <p class="lede">The first one is the one that matters. The rest can wait for a good moment. Answer in chat with the number, in any order, as briefly as you like.</p></div></div>
+    <p class="lede">You answered all six on Oct 15, and your answers sit under each one. <b style="color:var(--gold)">Click any question</b> to open the reference behind it, so nothing here points at something you can't see.</p></div></div>
   <div class="qs" id="qs"></div>
 </div></section>
 
@@ -445,8 +467,9 @@ footer p{margin:10px 0 0;}
 
 <footer>
   <img src="./assets/mark-light.png" alt="Christopher Hager">
+  <p><a href="https://hagerca.github.io/#healing">Back to the Alchemy Lab</a></p>
   <p>Sage's Journal Review · Review no. 1 · written Thursday, October 15, 2026</p>
-  <p style="font-size:.82rem;margin-top:14px">Written by Sage from your daily notes, your follow-ups and your own words. Client names stay out of this page on purpose. Your body and your gut have the final say.</p>
+  <p style="font-size:.82rem;margin-top:14px">Written by Sage from your daily notes, your follow-ups and your own words. Clients appear by first name only, and only where you asked to see who it was. Your body and your gut have the final say.</p>
 </footer>
 
 <script>
@@ -583,7 +606,17 @@ const SH=[
    body:`<p>On Sunday you named voice as the channel: podcasts, your actual voice, at scale. You spent most of the week getting over strep throat.</p>`,
    zing:`I'm a practice manager, not a mystic. You're the mystic. I'll leave that one with you.`}
 ];
-document.getElementById('shadowCards').innerHTML=SH.map(s=>`<article class="card${s.wide?' wide2':''}" style="--k:${s.k}"><div class="top"><div class="ico">${I(s.ic,22)}</div><div><div class="num">${s.num}</div><h3>${s.h}</h3></div></div>${gl(s.body)}<p class="zing">${gl(s.zing)}</p></article>`).join('');
+const SR=[
+  `<b>Sun Oct 11</b> weekly review: your podcast ask and the research. <b>Tue Oct 13</b> end of day, Tomorrow list: <q>Five minutes: pick the podcast shows.</q> <b>Wed Oct 14</b>, What didn't move: <q>zero pitches yet, by design.</q> <b>Thu Oct 15</b> morning: <q>held to Friday on pain, not avoidance.</q>`,
+  `Every build is in the session logs for Oct 9 to 14. All nine new sites were checked live and every one is marked noindex. The Wizard Intro, the Entheos record, Base Camp and the octopus tree live only on your laptop. Your own count of the whole Alchemy Lab on Wednesday night: 70 pages, 5 rooms.`,
+  `<b>Wed Oct 14</b>, your words at the close: you are meant <q>to continue to gestate all these ideas that are pouring through me.</q> Logged in the decision log the same night.`,
+  `It's <b>Lori</b>, who posts as Lori Zein on Skool. The full story, with dates, is behind <a href="#questions">question 2</a>.`,
+  `The 4 and its Oct 20 target come from October's monthly targets. The $24 is Wave's partner commission: it's stuck because onboarding wants a Costa Rican bank account, and the support message drafted Oct 6 is still unsent. The duster, laptop, Venmo fee and price raise are each in that day's session log.`,
+  `The time of the last session logged each day, from the daily notes: Fri 6:34 PM, Sat 8:07 PM, Sun 6:15 PM, Mon 5:21 PM, Tue 7:28 PM, Wed 8:34 PM.`,
+  `<b>Mon Oct 12, 9:51 AM</b>: the machine diagnostic. Two browsers were holding about 7 GB between them.`,
+  `<b>Fri Oct 9</b>: strained throat. <b>Sun Oct 11</b>: voice named as the channel. <b>Wed Oct 14</b>: last antibiotic.`
+];
+document.getElementById('shadowCards').innerHTML=SH.map((s,i)=>`<article class="card${s.wide?' wide2':''}" style="--k:${s.k}"><div class="top"><div class="ico">${I(s.ic,22)}</div><div><div class="num">${s.num}</div><h3>${s.h}</h3></div></div>${gl(s.body)}<p class="zing">${gl(s.zing)}</p>${SR[i]?`<details><summary>The receipt</summary><div class="receipt">${SR[i]}</div></details>`:''}</article>`).join('');
 document.getElementById('fairIc').innerHTML=I('scale',26);
 
 /* Threads */
@@ -600,18 +633,32 @@ document.getElementById('threads').innerHTML=TH.map(([ic,c,h,l,s,so])=>`<article
   <p class="so"><b>So</b>${so}</p></article>`).join('');
 
 /* Memory icons */
-document.getElementById('mi1').innerHTML=I('check',16);document.getElementById('mi2').innerHTML=I('search',16);document.getElementById('mi3').innerHTML=I('alert',16);
+document.getElementById('mi1').innerHTML=I('check',16);document.getElementById('mi2').innerHTML=I('search',16);document.getElementById('mi3').innerHTML=I('alert',16);document.getElementById('mi4').innerHTML=I('coin',16);
 
 /* Questions */
 const QS=[
-  ['The podcasts have moved three times, each for a true reason. Your Human Design says the gut decides and a hesitation means "no for now."','[[sacral|Gut, not head]]: are five podcast pitches by Friday still a yes?','Answer: "yes" or "no for now." A no gets a real date and a reason, not a fourth reschedule.',true],
-  ['The one person who answered your sixteen personal asks came back publicly on her own. The reply has been drafted since Oct 7 and has no date.','Do you want to post it this week, or give it a real date?','Answer: "post it" (and we settle the two calls together) or a date.'],
-  ['The Finances 4 entry is due Tue Oct 20, and your last coaching session was Oct 2.','Do you want that one round of inner work to happen as a /coach session, or as a Day One entry on your own?','Answer: "coach" or "Day One," and roughly when.'],
-  ['You named gestation on Wednesday, and I believe it for the Alchemy Lab.','Which of this week\'s ideas are actually gestating, and which are just waiting?','Answer: say it out loud in chat; I\'ll write down only what you say.'],
-  ['You got strep throat the same week voice became the strategy.','What does your throat say about speaking to strangers right now?','Answer: whatever comes. No wrong answer, and it stays between us.'],
-  ['This is review no. 1.','Should Sage\'s Journal Review run every Thursday, or ride along with the Sunday weekly review?','Answer: "Thursday," "Sunday," or "only when I ask."']
+  {lead:true,c:'The podcasts have moved three times, each for a true reason. Your Human Design says the gut decides and a hesitation means "no for now."',a:'[[sacral|Gut, not head]]: are five podcast pitches by Friday still a yes?',
+   ans:`<q>Yes, my gut says the 5 podcast pitches is still good for Friday.</q> And for the record, you literally threw your back out, spent time putting it right, and still got through both calls.`,
+   ref:`<h5>Where this comes from</h5><ol><li><b>Sun Oct 11, your ask at the weekly review:</b> <q>do some digging on how you could get me on podcasts... start booking some podcasts in the next week or two.</q></li><li>The same evening I researched about <b>35 shows across three lanes</b>. They are in your local outreach folder as the podcast research file from Oct 11.</li><li><b>This week's target:</b> at least 5 pitches out by Fri Oct 16, drafted by Sage, sent from Sage's box only on your OK.</li><li>The three reschedules are drawn as a timeline in <a href="#shadow">The shadow, number 1</a>.</li></ol>`},
+  {c:'The one person who answered your sixteen personal asks came back publicly on her own. The reply has been drafted since Oct 7 and has no date.',a:'Do you want to post it this week, or give it a real date?',
+   ans:`<q>I don't know who that is.</q> Fair. It was never named here, so the reference below now names her.`,
+   ref:`<h5>Who it is: Lori (she posts as Lori Zein on Skool)</h5><ol><li><b>Oct 1:</b> your sixteen personal emails about the Collective went out.</li><li><b>Oct 2, 7:28 PM:</b> Lori was the only one of the sixteen who wrote back. <b>Oct 3, 12:46 PM:</b> you answered her. Then quiet.</li><li><b>Oct 7:</b> unprompted, she commented under your <b>Soul Over Salary</b> article in Skool: she never hit her coworkers' numbers, has always had enough, and is learning to surrender to being guided.</li><li><b>Same day:</b> I drafted a three-paragraph reply in your voice. It has sat unposted since, with no due date.</li><li><b>The two calls waiting on you:</b> the opening joke plays on both of her names in public, and the line <q>nobody claps for a no that never had a number attached to it</q> is a claim about her life that can't be taken back once it's posted.</li></ol><p style="margin:10px 0 0">Say <b>"show me Lori's reply"</b> in chat and I'll put the full draft in front of you.</p>`},
+  {c:'The Finances 4 entry is due Tue Oct 20, and your last coaching session was Oct 2.',a:'Do you want that one round of inner work to happen as a /coach session, or as a Day One entry on your own?',
+   ans:`<q>I would love to go through another round of coaching with you.</q> <b style="display:inline;color:#fff;font-family:inherit;font-size:inherit;letter-spacing:0;text-transform:none">Booked: Mon Oct 19, 11:00 AM to 12:30 PM</b>, after the 9:00 AM Sansa flight, a day ahead of the target.`,
+   ref:`<h5>Where this comes from</h5><ol><li><b>Sep 30, your first Wheel of Life:</b> Finances scored <b>4</b>, against 8 for Work and 9 for Relationships, Community and Spiritual Practice.</li><li><b>October's one Capacity target:</b> one dated journal entry or coaching session naming what the 4 is actually about, by <b>Tue Oct 20</b>.</li><li><b>Your last coaching sessions</b> were three /edge rounds on Oct 1 and 2.</li></ol>`},
+  {c:'You named gestation on Wednesday, and I believe it for the Alchemy Lab.',a:'Which of this week\'s ideas are actually gestating, and which are just waiting?',
+   ans:`<q>Everything is in gestation right now. It's pouring out of me so I'm letting it come out, and then I will allow it to marinate and continue to be refined. All of this will come forward in November.</q> The anchor: your new website with Tyler Drake, <b style="display:inline;color:#fff;font-family:inherit;font-size:inherit;letter-spacing:0;text-transform:none">fully live by Tue Nov 10, launched Wed Nov 11</b>. It's now a project, and I'm holding you to it.`,
+   ref:`<h5>Where this comes from</h5><ol><li><b>Wed Oct 14, your words at the close:</b> you are meant <q>to continue to gestate all these ideas that are pouring through me.</q></li><li>Logged in the decision log that night: the Alchemy Lab keeps expanding, and its ideas gestate rather than ship on a clock.</li></ol>`},
+  {c:'You got strep throat the same week voice became the strategy.',a:'What does your throat say about speaking to strangers right now?',
+   ans:`<q>My voice is deepening. I feel better now. That frequency that is coming through me feels deeper.</q> And then the bigger one: <q>I know my worth is going up and up and up.</q> From the website launch: <b style="display:inline;color:#fff;font-family:inherit;font-size:inherit;letter-spacing:0;text-transform:none">$555 an hour, $777 for 90 minutes.</b> More excited than nervous.`,
+   ref:`<h5>Where this comes from</h5><ol><li><b>Fri Oct 9:</b> strained throat, energy low. <b>Wed Oct 14:</b> last antibiotic.</li><li><b>Sun Oct 11:</b> you named voice as the next channel, podcasts first.</li><li><b>Wed Oct 14:</b> your second session with Madison, where charging more came up.</li></ol>`},
+  {c:'This is review no. 1.',a:'Should Sage\'s Journal Review run every Thursday, or ride along with the Sunday weekly review?',
+   ans:`<q>Thursday is a pretty good day to assume that it's coming in.</q> Plus any other day you have spaciousness, or you're really going through something.`,
+   ref:`<h5>Where this comes from</h5><ol><li>This page is review no. 1, written Thu Oct 15 from your daily notes for Oct 9 to 15, your follow-ups and your own words in chat.</li></ol>`}
 ];
-document.getElementById('qs').innerHTML=QS.map(([c,a,h,lead])=>`<div class="q${lead?' lead':''}"><div><p class="ctx">${c}</p><p class="ask">${gl(a)}</p><p class="how">${h}</p></div></div>`).join('');
+document.getElementById('qs').innerHTML=QS.map(q=>`<div class="q${q.lead?' lead':''}" tabindex="0" role="button" aria-expanded="false"><div><p class="ctx">${q.c}</p><p class="ask">${gl(q.a)}</p><p class="ans"><b>Your answer · Oct 15</b>${q.ans}</p><span class="hint">${I('search',13)}<span class="lbl">See the reference</span></span><div class="ref"><div><div class="refin">${q.ref}</div></div></div></div></div>`).join('');
+document.getElementById('qs').addEventListener('click',e=>{if(e.target.closest('.t[data-g],a'))return;const q=e.target.closest('.q');if(!q)return;const o=q.classList.toggle('open');q.setAttribute('aria-expanded',o);q.querySelector('.lbl').textContent=o?'Hide the reference':'See the reference';});
+document.getElementById('qs').addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('q')){e.preventDefault();e.target.click();}});
 
 /* Owe */
 const OWE=[
@@ -619,14 +666,16 @@ const OWE=[
     ['back','Take care of your back','Floor, bar hang, then the acupuncture pad between calls. Your own needle-mover for today.','Today',true],
     ['kingdom','The Kingdom interview with Pixie','Play Block, 2:00 to 4:00 PM. Only the lines she approves go live.','2:00 PM',true]]],
   ['By Friday, Oct 16',[
-    ['pods','Answer question 1, then pick the podcast shows','Five minutes from the shortlist. I draft the five pitches from Sage\'s box; they go out only on your OK.','Fri',true],
+    ['pods','Pick the podcast shows (your gut said yes)','Five minutes from the shortlist. I draft the five pitches from Sage\'s box; they go out only on your OK.','Fri',true],
     ['payout','Settle the Entheos referral payout','8:30 AM. The ledger is inside the calendar entry.','Fri 8:30 AM',true],
     ['wom','Add Way of Mastery to Friday\'s drop-in','Amend that single Friday instance with Austin; leave the recurring series alone.','Before Fri',true],
     ['nudge','Send the held booking nudge','Drafted in Sage\'s box with you on cc. Reminder set for 10:33 AM Friday while ACE is open.','Fri']]],
   ['Next week',[
-    ['four','One round of inner work on the 4','Your October Capacity target. See question 3.','Tue Oct 20'],
+    ['four','Coaching with Sage: Finances, the 4','90 minutes, on the calendar. Open ACE and type /coach. Lands your October target a day early.','Mon 11:00 AM',true],
     ['courtesy','Send the held courtesy note','Drafted in Sage\'s box; you held it to next week.','Mon Oct 19'],
-    ['reply','Post the reply to the one who answered','Two small calls, then post it. See question 2.','No date yet']]],
+    ['reply','Decide on Lori\'s reply','Post it, or give it a date. The two calls are behind question 2.','No date yet']]],
+  ['November',[
+    ['site','Your new website, fully live with Tyler','Ready by the second Tuesday, launched the second Wednesday. $555 an hour and $777 for 90 minutes start that day. A project now, and I\'m holding you to it.','Tue Nov 10',true]]],
   ['When you have two minutes',[
     ['dub','Send the Wave payout support message','Already drafted since Oct 6, so the $24 can find a bank account that isn\'t in Costa Rica.','Oct 31'],
     ['close','Type /close in chat','So this review and the memory fix get logged.','Today']]]
