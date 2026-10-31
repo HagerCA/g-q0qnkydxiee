@@ -288,6 +288,9 @@ a.wk:hover{border-color:var(--teal);box-shadow:0 0 30px -14px var(--teal);}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none !important;transition:none !important;}.card,.thread,.q,.rs,.tile{opacity:1;transform:none;}.bk .ink{stroke-dashoffset:0;}html{scroll-behavior:auto;}}
 @media (min-width:761px){.wk-row.four{grid-template-columns:repeat(4,1fr);}}
 .wk-row.four .wk.now{padding-top:34px;}
+@media (min-width:761px){.wk-row.five{grid-template-columns:repeat(3,1fr);}}
+@media (min-width:1100px){.wk-row.five{grid-template-columns:repeat(5,1fr);}.wk-row.five .wk b{font-size:1.4rem;}}
+.wk-row.five .wk.now{padding-top:34px;}
 </style>
 </head>
 <body>
@@ -325,29 +328,143 @@ a.wk:hover{border-color:var(--teal);box-shadow:0 0 30px -14px var(--teal);}
 <section class="weeks" aria-label="Weeks reviewed">
   <div class="wide">
     <h2>Weeks reviewed</h2>
-    <div class="wk-row four">
-      <div class="wk now"><small>This review</small><b>Oct 19 to 25, 2026</b><span>Review no. 3 · Mon to Sun · asked for on a Sunday</span><em>The Couch Week · written Oct 25, refreshed Oct 26</em></div>
+    <div class="wk-row five">
+      <div class="wk now"><small>This review</small><b>Oct 26 to 31, 2026</b><span>Review no. 4 · Mon to Sat · asked for on Halloween</span><em>The Clearing Week · written Oct 31</em></div>
+      <a class="wk" href="#r3" onclick="document.getElementById('r3').open=true"><b>Oct 19 to 25, 2026</b><span>Review no. 3 · Mon to Sun</span><em>The Couch Week · answered Oct 25 · tap to open</em></a>
       <a class="wk" href="#r2" onclick="document.getElementById('r2').open=true"><b>Oct 12 to 18, 2026</b><span>Review no. 2 · Mon to Sun</span><em>The Valve Week · answered Oct 19 · tap to open</em></a>
       <a class="wk" href="#r1" onclick="document.getElementById('r1').open=true"><b>Oct 9 to 15, 2026</b><span>Review no. 1 · Fri to Thu · 70 sessions logged</span><em>The Robe Week · answered Oct 15 · tap to open</em></a>
-      <div class="wk ghost"><b>Next</b><span>Review no. 4 · Thu Oct 29 · Thursdays, or whenever you ask</span><em>Every past week stays readable below</em></div>
+      <div class="wk ghost"><b>Next</b><span>Review no. 5 · Thu Nov 5 · Thursdays, or whenever you ask</span><em>Every past week stays readable below</em></div>
     </div>
   </div>
 </section>
 
 <nav class="snav" aria-label="Sections"><div class="in">
-  <a href="#n3-glance" style="--c:#D9A648"><i></i>At a glance</a>
-  <a href="#n3-light" style="--c:#F2C230"><i></i>What moved</a>
-  <a href="#n3-shadow" style="--c:#9B8CF0"><i></i>The shadow</a>
-  <a href="#n3-themes" style="--c:#5FC0AE"><i></i>Common themes</a>
-  <a href="#n3-merlin" style="--c:#AC9FF2"><i></i>Merlin</a>
-  <a href="#n3-memory" style="--c:#8FB0F0"><i></i>Memory</a>
-  <a href="#n3-questions" style="--c:#D9A648"><i></i>My questions</a>
-  <a href="#n3-owe" style="--c:#E58BB0"><i></i>What you owe</a>
+  <a href="#n4-glance" style="--c:#D9A648"><i></i>At a glance</a>
+  <a href="#n4-light" style="--c:#F2C230"><i></i>What moved</a>
+  <a href="#n4-shadow" style="--c:#9B8CF0"><i></i>The shadow</a>
+  <a href="#n4-themes" style="--c:#5FC0AE"><i></i>Common themes</a>
+  <a href="#n4-asked" style="--c:#AC9FF2"><i></i>You asked me</a>
+  <a href="#n4-memory" style="--c:#8FB0F0"><i></i>Memory</a>
+  <a href="#n4-questions" style="--c:#D9A648"><i></i>My questions</a>
+  <a href="#n4-owe" style="--c:#E58BB0"><i></i>What you owe</a>
+  <a href="#r3" onclick="document.getElementById('r3').open=true" style="--c:#F2C230"><i></i>Review no. 3</a>
   <a href="#r2" onclick="document.getElementById('r2').open=true" style="--c:#5FC0AE"><i></i>Review no. 2</a>
   <a href="#r1" onclick="document.getElementById('r1').open=true" style="--c:#AC9FF2"><i></i>Review no. 1</a>
 </div></nav>
 
 <main>
+
+<!-- REVIEW NO. 4 · AT A GLANCE -->
+<section class="sec" id="n4-glance" style="--c:#D9A648"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">Review no. 4 · Mon Oct 26 to Sat Oct 31 · At a glance</p><h2 class="big">The week in <em>one breath</em></h2>
+    <p class="lede">Your Day One journal first, re-synced Saturday morning: <b>every weekday is present, Monday to Friday.</b> Then every daily note, session log and follow-up from the week. Saturday isn't written yet, so this one stops at breakfast on Halloween. Of the week's four targets, two landed, both early, and both in the voice lane that was the weak leg two weeks running: the podcasts and Soul Over Salary Part 2. The videos and the website didn't.</p></div></div>
+  <div class="oneline">You knocked on eight podcast doors, put your full name on a letter to 241 people, and told a $100 offer no, kindly. Then you cleared 13,270 emails, and the only thing left in the inbox is <em>two minutes of your own face.</em><small>Sage's one-line read</small></div>
+  <div class="stats">
+    <div class="stat" style="--s:#3FA86A"><b>2/4</b><span>weekly targets met, both early (last week: 2/3)</span></div>
+    <div class="stat" style="--s:#F2C230"><b>241</b><span>got Soul Over Salary Part 2, from Christopher Hager</span></div>
+    <div class="stat" style="--s:#E58BB0"><b>8</b><span>podcast doors knocked (last week: 1, and it bounced)</span></div>
+    <div class="stat zero" style="--s:#9B8CF0"><b>0</b><span>two-minute videos recorded (target: 2)</span></div>
+    <div class="stat" style="--s:#5FC0AE"><b>13,270</b><span>emails cleared; inbox read back at zero</span></div>
+    <div class="stat" style="--s:#AC9FF2"><b>1</b><span>discount declined, kindly</span></div>
+  </div>
+  <div class="days" id="n4-days"></div>
+  <div class="bars">
+    <h4>When the day's last session was logged</h4>
+    <p>Session times, not hours away from family: you were with Pixie and the boys through plenty of these. This week still sits inside the season you named on Oct 19, so no flag. November's review is the first one where this chart gets a say.</p>
+    <svg id="n4-barsvg" viewBox="0 0 700 210" aria-label="Last session time for each day"></svg>
+  </div>
+</div></section>
+
+<!-- REVIEW NO. 4 · LIGHT -->
+<section class="sec" id="n4-light" style="--c:#F2C230"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">The light · What moved</p><h2 class="big">What went <em>right</em></h2>
+    <p class="lede">The biggest win answers last week's biggest shadow, again. That's two weeks running, which is starting to look like a habit.</p>
+    <div class="chips"><span class="chip"><b>7</b> wins</span><span class="chip">Mon Oct 26 to Sat Oct 31</span></div></div></div>
+  <div class="grid" id="n4-lightCards"></div>
+</div></section>
+
+<!-- REVIEW NO. 4 · SHADOW -->
+<section class="sec" id="n4-shadow" style="--c:#9B8CF0"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">The shadow · Robe off</p><h2 class="big">What's hiding in the <em>shadow</em></h2>
+    <p class="lede">Humour first, then the teeth. You named the first one yourself on Friday, before I could.</p>
+    <div class="chips"><span class="chip"><b>3</b> shadows</span><span class="chip"><b>1</b> fairness clause</span></div></div></div>
+  <div class="grid" id="n4-shadowCards"></div>
+  <div class="fair"><div class="ic" id="n4-fairIc"></div><div><h4>The fairness clause</h4><p>This was one of the strongest weeks on this page. Two of four targets met early, and both were the voice lane, the leg that was weakest two weeks running. The body got listened to all week. The old loop ran twice, and both times you wrote it down plainly and without beating yourself up, which is the opposite of hiding it. The videos you named yourself, and the website waits on two people, not one. That's the headline; these are the footnotes.</p></div></div>
+</div></section>
+
+<!-- REVIEW NO. 4 · THEMES -->
+<section class="sec" id="n4-themes" style="--c:#5FC0AE"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">Common themes · Trends</p><h2 class="big">What ran through <em>the whole week</em></h2>
+    <p class="lede">Each thread has a light side and a shadow side. They're the same thread. That's the point.</p>
+    <div class="chips"><span class="chip"><b>6</b> threads</span></div></div></div>
+  <div class="grid" id="n4-threads"></div>
+</div></section>
+
+<!-- REVIEW NO. 4 · YOU ASKED ME -->
+<section class="sec" id="n4-asked" style="--c:#AC9FF2"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">You asked me in your journal · Thu Oct 29</p><h2 class="big">Eight tostadas, <em>by the numbers</em></h2>
+    <p class="lede">"Sage, if you could let me know what you think that is, a guesstimate." Here it is, plus where your other notes to me landed.</p></div></div>
+  <div class="grid">
+    <article class="card wide2" style="--k:#AC9FF2"><div class="top"><div class="ico" id="n4-askIc"></div><div><div class="num">The short answer</div><h3>About 1,700 calories, give or take a tostada</h3></div></div>
+      <p>Your recipe: corn tostadas about 5 inches across, refried beans, ground beef, a little cilantro and onion, and Green Iguana on top. Not piled high, but thick. Per tostada, roughly:</p>
+      <p><b>The shell</b>, fried corn at 5 inches: 50 to 60. <b>The beans</b>, a thick smear of 3 to 4 tablespoons: 40 to 70. <b>The beef</b>, an ounce to an ounce and a half cooked: 75 to 115. <b>Onion, cilantro, hot sauce:</b> under 10.</p>
+      <p>That's about 170 to 250 a tostada, so <b>eight lands between roughly 1,400 and 2,000. Call it 1,700.</b> There's also something like 90 to 120 grams of protein in there, mostly the beef. If the beans were made with lard or the beef was a fattier grind, lean toward the top of the range. It's a guesstimate from typical label values, not a weigh-in; one plate on a kitchen scale would turn it into a real number.</p>
+      <p class="zing">For scale, that's roughly four of Monday's walks up Zipline Mountain. Green Iguana is zero calories, so technically the sauce was the healthy part.</p></article>
+    <article class="card wide2" style="--k:#8FB0F0"><div class="top"><div class="ico" id="n4-notesIc"></div><div><div class="num">Your other notes to me</div><h3>Where they landed</h3></div></div>
+      <p><b>Mon Oct 26:</b> <q>I want to do something that explains that $360 an hour is what I charge hourly... 9 sessions is the minimum for 3 months.</q> <b>Done Tuesday:</b> the container sheet, single session against three and six months side by side, with two ways to pay and no paid-in-full discount.</p>
+      <p><b>Thu Oct 29:</b> <q>Maybe instead of 2-minute drill it's 2 minutes from the heart.</q> <b>Noted,</b> and it's the name I use from here on, starting with this page.</p>
+      <p><b>Thu Oct 29:</b> A Quiet Place Part II at 4.2, and Love and Monsters on the watch list. <b>Not done yet, and that's mine.</b> Part II is queued in the app with no rating; Love and Monsters isn't there. Say "go" and both go in, with the app redeployed.</p>
+      <p class="zing">Three notes, two done, one waiting on a word. Better odds than the podcast hosts are giving us.</p></article>
+  </div>
+</div></section>
+
+<!-- REVIEW NO. 4 · MEMORY -->
+<section class="sec" id="n4-memory" style="--c:#8FB0F0"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">Housekeeping · Memory</p><h2 class="big">What I <em>updated</em></h2>
+    <p class="lede">I re-synced Day One on Saturday morning before reading a word, then read the week's notes and logs. Here's what I checked and what I'm carrying.</p></div></div>
+  <div class="mem">
+    <div class="box" style="--m:#3FA86A"><h4><span id="n4-mi1"></span>Recorded</h4><ul>
+      <li>This review in my notes on it: no. 4, Mon Oct 26 to Sat Oct 31, asked for on Halloween morning.</li>
+      <li><b>Review no. 3 is folded below</b>, with everything in it kept as it was.</li>
+      <li><b>Day One re-synced Sat Oct 31:</b> every weekday present, through Friday afternoon. Saturday isn't written yet.</li></ul></div>
+    <div class="box" style="--m:#8FB0F0"><h4><span id="n4-mi2"></span>Checked, already current</h4><ul>
+      <li>Soul Over Salary Part 2: sent Thu 1:08 PM to 241, From line verified.</li>
+      <li>Podcasts: 8 email pitches, 3 forms, 3 follow-ups, 0 replies. Next follow-ups Nov 2 to 4 if quiet.</li>
+      <li>Tyler and the website: Mon Nov 2, 1:30 PM.</li>
+      <li>2 minutes from the heart: Mon Nov 2, 2:45 PM block.</li>
+      <li>Austin lands today, 12:45 PM, for about a month.</li>
+      <li>The evenings: still inside your season. No flag before November.</li></ul></div>
+    <div class="box" style="--m:#D9A648"><h4><span id="n4-mi4"></span>From your journal</h4><ul>
+      <li>The rental you saw Thursday is a no: too close to the neighbours and too small for how you both work.</li>
+      <li>Pixie wants the 6:15 AM walk every morning. Since she asked on Wednesday, you've gone together three mornings out of three.</li>
+      <li>When Austin moved The Way of Mastery a second Friday, you opened it on your own.</li></ul></div>
+    <div class="box" style="--m:#F2C230"><h4><span id="n4-mi3"></span>Two wobbles, and they're mine</h4><ul>
+      <li>The two movies from Thursday's entry aren't in the library yet. One word from you and they are.</li>
+      <li>The four Blueprints that queued behind GitHub's limit two weeks ago still haven't been re-checked by me. Still on my list, not yours.</li></ul></div>
+  </div>
+</div></section>
+
+<!-- REVIEW NO. 4 · QUESTIONS -->
+<section class="sec" id="n4-questions" style="--c:#D9A648"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">For you · My questions</p><h2 class="big">What I want to <em>ask you</em></h2>
+    <p class="lede">Question 1 is the one that matters. <b style="color:var(--gold)">Click any question</b> to open the reference behind it. Answer in chat and I'll put your words under each one.</p></div></div>
+  <div class="qs" id="n4-qs"></div>
+</div></section>
+
+<!-- REVIEW NO. 4 · OWE -->
+<section class="sec" id="n4-owe" style="--c:#E58BB0"><div class="wide">
+  <div class="sec-head solo"><div><p class="eyebrow">Action steps · Your hand</p><h2 class="big">What you <em>owe</em></h2>
+    <p class="lede">Only the things that need you. Everything else is mine. Tick as you go; the bar fills up, and I'll check the real records next week regardless.</p></div></div>
+  <div class="owe">
+    <div class="bar"><div class="prog"><i id="n4-progbar"></i></div><div class="count" id="n4-progcount"></div></div>
+    <div id="n4-oweList"></div>
+  </div>
+</div></section>
+
+<!-- REVIEW NO. 3 · ARCHIVE -->
+<details class="arch" id="r3">
+<summary><span class="ak">Review no. 3 · Mon Oct 19 to Sun Oct 25 · answered Oct 25</span><b>The Couch Week</b><q>People are enjoying what I have to say.</q><em>Open review no. 3</em></summary>
+
 
 <!-- REVIEW NO. 3 · AT A GLANCE -->
 <section class="sec" id="n3-glance" style="--c:#D9A648"><div class="wide">
@@ -449,8 +566,10 @@ a.wk:hover{border-color:var(--teal);box-shadow:0 0 30px -14px var(--teal);}
   </div>
 </div></section>
 
+</details>
+
 <!-- REVIEW NO. 2 · ARCHIVE -->
-<details class="arch" id="r2">
+<details class="arch" id="r2" style="margin-top:0">
 <summary><span class="ak">Review no. 2 · Mon Oct 12 to Sun Oct 18 · answered Oct 19</span><b>The Valve Week</b><q>This is the final boss fight... I know the code to it now.</q><em>Open review no. 2</em></summary>
 
 <!-- REVIEW NO. 2 · AT A GLANCE -->
@@ -1288,6 +1407,167 @@ setTimeout(()=>n3els.forEach(el=>el.classList.add('in')),1800);
 /* Opening review no. 2 reveals its cards too */
 document.getElementById('r2').addEventListener('toggle',e=>{if(e.target.open)setTimeout(()=>e.target.querySelectorAll('.card,.thread,.q').forEach(el=>el.classList.add('in')),400);});
 if(location.hash==='#r2'||location.hash.indexOf('#n2-')===0||location.hash==='#held')document.getElementById('r2').open=true;
+</script>
+<script>
+/* ===== Review no. 4 · Mon Oct 26 to Sat Oct 31, 2026 ===== */
+Object.assign(G,{
+  firstp:['The first person','A pattern you confirmed at Thursday\'s close: your full name on the From line, your number on the booking page, and a no to a discount said in your own words.'],
+  clearing:['The clearing','A new pattern from Friday, offered at close and accepted: a day spent clearing years of mail, files and spam calls, ending in a published 21-day purge journal.'],
+  doorway:['The doorway','The phone in your hand before dawn, because a dream needed recording. On the two mornings it went into the bathroom with you, the old loop ran. On the two it didn\'t, the mornings stayed clean.'],
+  helpthread:['The help thread','From Sage\'s Dream Temple Review: the word "help" turns up in every one of Dreams #201 to #205, seventeen times in all.']
+});
+
+const D4=[
+  ['Mon','Oct 26','steady','#3FA86A','Woke short. Spider-Man, nearly 4 miles up Zipline Mountain with your prayers out loud, a two-hour nap. A new client from Celeste: "keep this thing going."',20.35],
+  ['Tue','Oct 27','steady','#3FA86A','Three follow-ups and three pitches out by 10:53 AM. Two calls. Minecraft Dungeons as player one, then Super 8.',15.83],
+  ['Wed','Oct 28','high','#3FA86A','A 6:15 AM walk with Pixie. Twenty-two on the Entheos call, the first to end under time. A Quiet Place.',19.58],
+  ['Thu','Oct 29','high','#3FA86A','Woke to a gratitude montage. Yoga when the body asked. Part 2 to 241 at 1:08 PM. The price held.',19.97],
+  ['Fri','Oct 30','high','#3FA86A','Two dreams before dawn. Drive, Gmail and the spam line cleared. The Purge Journal live. The Way of Mastery, opened alone.',20.93],
+  ['Sat','Oct 31','not logged','#8FB0F0','Halloween. The October reflection, then Austin lands at 12:45 PM. And this review, over breakfast.',8.5]
+];
+document.getElementById('n4-days').innerHTML=D4.map(d=>`<div class="day"><h4>${d[0]}</h4><div class="date">${d[1]}</div><span class="energy" style="--e:${d[3]}">${d[2]}</span><p>${d[4]}</p></div>`).join('');
+(function(){
+  const svg=document.getElementById('n4-barsvg'), x0=60, w=86, top=20, bot=180, hMin=8, hMax=22;
+  const y=h=>bot-(h-hMin)/(hMax-hMin)*(bot-top);
+  const fmt=h=>{let H=Math.floor(h),M=Math.round((h-H)*60);const ap=H>=12?'PM':'AM';H=H%12||12;return H+':'+String(M).padStart(2,'0')+' '+ap;};
+  let s='';
+  [8,12,16,20].forEach(h=>{s+=`<line x1="${x0-10}" x2="690" y1="${y(h)}" y2="${y(h)}" stroke="#EFE7DA" stroke-opacity=".07"/><text x="${x0-14}" y="${y(h)+4}" text-anchor="end" font-family="Space Grotesk,sans-serif" font-size="10" fill="#EFE7DA" fill-opacity=".45">${fmt(h)}</text>`;});
+  D4.forEach((d,i)=>{const cx=x0+i*w+w/2, yy=y(d[5]), late=d[5]>=17&&i<5, c=late?'#E58BB0':'#5FC0AE', last=i===D4.length-1;
+    s+=`<rect x="${cx-18}" y="${bot}" width="36" height="0" rx="5" fill="${c}" opacity=".85"><animate attributeName="y" from="${bot}" to="${yy}" dur="1.2s" begin="${.2+i*.12}s" fill="freeze"/><animate attributeName="height" from="0" to="${bot-yy}" dur="1.2s" begin="${.2+i*.12}s" fill="freeze"/></rect>
+    <text x="${cx}" y="${yy-8}" text-anchor="middle" font-family="Space Grotesk,sans-serif" font-size="10.5" fill="#fff" opacity="0">${last?'today':fmt(d[5])}<animate attributeName="opacity" to="1" dur=".4s" begin="${1.2+i*.12}s" fill="freeze"/></text>
+    <text x="${cx}" y="${bot+18}" text-anchor="middle" font-family="Space Grotesk,sans-serif" font-size="11" letter-spacing="1.5" fill="#D9A648">${d[0].toUpperCase()}</text>`;});
+  s+=`<line x1="${x0-10}" x2="690" y1="${y(17)}" y2="${y(17)}" stroke="#E58BB0" stroke-dasharray="6 5" stroke-width="1.5"/><text x="690" y="${y(17)-6}" text-anchor="end" font-family="Space Grotesk,sans-serif" font-size="10" fill="#E58BB0">5:00 PM</text>`;
+  svg.innerHTML=s;
+})();
+
+/* Light */
+const L4=[
+  ['mic','#F2C230','Win 1 · The big one · Last week\'s shadow','The microphone came out of its case',
+   `Last week's biggest shadow: one podcast pitch, bounced, and nine days of quiet. At the weekly review you said <b>"I want your help getting them out."</b> By <b>10:53 AM Tuesday</b>, three follow-ups had gone out with your years corrected and nobody calling you sober, three fresh pitches went to shows you picked (the target was two), and both stuck guest forms went in. One of them sent back the first confirmation email this lane has ever had.`,
+   `Last week the podcast lane was on the couch with your foot up. This week it got off the couch, limped to three new doors and knocked on the old ones too. No host has answered yet. Podcasters read their email the way cats come when called.`,
+   `<b>Tue Oct 27</b>: follow-ups to Let's Talk Near Death, Magnetic by Design and Why I Left, sent by you at 10:46 AM. Pitches to Soul Elevation, No BS Human Design and Menfolk Journeys at 10:53 AM, no bounces. Forms: Men Talking Mindfulness (confirmation 3:29 PM) and Dark Night of the Soul Unwrapped. <b>The scoreboard</b>: 8 email pitches (1 bounced), 3 forms, 3 follow-ups, 0 replies, 0 booked. Follow-ups due Nov 2 to 4 if the new three stay quiet.`],
+  ['crown','#D9A648','Win 2 · Three hours early','Your name on the letter',
+   `Soul Over Salary Part 2 went to <b>241 people on Thursday at 1:08 PM</b>, three hours ahead of plan, and the From line reads <b>Christopher Hager</b> because you changed it yourself. Fifty-two opens in the first minutes. The same afternoon you rewrote Opening the Portal as first sessions only and pointed returning clients at $360, your number, on your page.`,
+   `Part 1 came from "Christopher." Part 2 came from Christopher Hager. Same man, more surname. That's what [[firstp|the first person]] looks like in an email header.`,
+   `<b>Thu Oct 29</b>: a new send list of 241 (4 unsubscribes skipped, 2 added on your word), the email built from the live page, read back with 4 of 4 images, sent by you through YAMM at 1:08 PM, From verified on the sent copy. Calendly rewritten by you the same day. <b>Thursday's close</b>: you kept the first person as a pattern, in your words.`],
+  ['coin','#F2C230','Win 3 · From Friday\'s journal','The price held, kindly',
+   `A returning client asked for a session, heard $360, and offered $100. You said no, warmly, and wrote down why: <b>"It's not just a price. It's like, 'Who do I really want to work with? Who really sees my value?'"</b> Her answer: <b>"more power to you."</b> And on Wednesday you scored Finances a <b>6 out of 10</b>, up from [[four|the 4]] in September.`,
+   `Last week the Queen held the gas price in a dream. This week you held it in an actual conversation, which is harder, because real people have read receipts.`,
+   `<b>Fri Oct 30</b>: <q>I'm sorry, I made this promise that I was going to stick to this number.</q> And: <q>I knew this day would come.</q> <b>Thursday's close</b>: <q>I'm not sitting with people for less than my value.</q> <b>Wednesday at /start</b>: <q>It's a big shift... Feels like abundance is here. It's finding me constantly.</q> The amounts in your account stay in your journal.`],
+  ['leaf','#5FC0AE','Win 4','You let the body drive',
+   `Monday you woke short and felt the frustration compounding. Instead of handing it to the house, you did Spider-Man, then walked nearly 4 miles to the top of Zipline Mountain, touching trees and saying your prayers out loud, then napped almost two hours. Spider-Man was back to 7:30 by Tuesday. Wednesday you predicted the body would ask for yoga next; on Thursday it did, and you gave it thirty minutes.`,
+   `Hugging trees and singing to nature on a Monday. The neighbours might call that a breakdown. Your nervous system calls it a Monday that worked.`,
+   `<b>Mon Oct 26</b>: <q>I'm going to take some spaciousness and really listen to my body.</q> <b>Tue Oct 27</b>, the note you found in the tree: <q>Feet are in the dirt. I feel good.</q> <b>Wed Oct 28</b>: <q>It feels good to have listened to my body these few days.</q> <b>Thu Oct 29</b>: <q>Something kept telling me, "No, no, no, you need to stretch."</q>`],
+  ['heart','#E58BB0','Win 5','Home, held from both sides',
+   `Wednesday Pixie asked to walk every morning, 6:15 to 7:00. Thursday she was underwater with work and said she didn't want to go; you said <b>"No no, we're going on a walk."</b> On the way back: <b>"Thank you for making me go on this."</b> Tuesday you both put the boys to bed and saw how happy it made them. And Minecraft Dungeons with you as player one: eighty minutes, in your words "just a blast."`,
+   `You've also both decided you might be too healed for Nobody Wants This. You've reached the stage of marriage where you're too emotionally healthy for prestige television. Netflix has no algorithm for that.`,
+   `<b>Thu Oct 29</b>: <q>Hey babe, this is why I'm here. I get to remind you to take care of yourself, just like you reminded me to take care of myself.</q> <b>Tue Oct 27</b>: <q>They were so happy that both of us put them to bed last night. We should be doing that more for sure.</q> <b>Thu Oct 29</b>: <q>Perhaps I'm too healed for that show in some regards.</q>`],
+  ['people','#AC9FF2','Win 6','Twenty-two people, and the first portal to end on time',
+   `Wednesday's Entheos call: <b>22 people, about 20 of them women</b>, opening up in front of people they'd never met because of how you hold the room. The teaching that poured through was the boss bitch as a mask for a man's world, and the goddess underneath it. It ran <b>1 hour 54 minutes on a 2-hour slot</b>, the first portal on record to finish under its time, with every share held. Twenty-nine of your lines went into Words of Wisdom.`,
+   `You ended a portal six minutes early. Somewhere, a Zoom server wept.`,
+   `<b>Wed Oct 28</b>: <q>If the man is the mountain, the woman is the river and the river, over time, cuts through the mountain.</q> And: <q>I don't take any of it lightly.</q> <b>The harvest</b>: 27 moments, 29 entries filed with context, 38 quotes re-checked against the recording, 0 misses. Nobody on the call is named on this page.`],
+  ['wave','#3FA86A','Win 7 · From Friday','The clearing',
+   `Friday you cleared space at every scale: <b>13,270 bulk emails</b> out under a restore label and the inbox read back at zero, <b>876 Drive moves</b> into seven folders with 824 duplicates held rather than deleted, and your number on the Do Not Call Registry. Then the <b>21-Day Purge Journal</b> went live. And when Austin moved The Way of Mastery a second Friday running, you didn't wait. You opened it yourself.`,
+   `You purged thirteen thousand emails and then published a guide to purging. That's not irony, that's field testing. [[clearing|The clearing]] is a real pattern now.`,
+   `<b>Fri Oct 30</b>: <q>I just want to start minimizing the shit that I'm holding onto in every way.</q> <b>Friday's close</b>, on The Way of Mastery: <q>I've been put off but I've started it for myself.</q> Nothing destroyed: duplicates held for your hand, trashed mail labelled, sent mail untouched.`]
+];
+document.getElementById('n4-lightCards').innerHTML=L4.map(card).join('');
+
+/* Shadow */
+const S4=[
+  {ic:'throat',k:'#9B8CF0',num:'Shadow 1 · The big one · Your own words',h:'Five hours for Peter\'s voice. Zero minutes for yours.',wide:true,
+   body:`<p>The target was two two-minute videos this week. The block moved from Monday to Wednesday to Thursday, and now it sits on next Monday. <b>None recorded.</b> In the same six days you built a thirteen-tab home for Peter's teaching out of 20 calls and 328 journal entries, a Four by Four page and a new skill, a Halloween list of 25 films, the Purge Journal, and cleared 13,270 emails. You even gave the videos a beautiful name: <b>2 minutes from the heart.</b> A name is a very comfortable place to keep a thing you haven't made yet.</p>
+     <div class="chain"><span>Mon morning</span><span>Wed afternoon</span><span>Thu 9:15 AM</span><span class="end">Mon Nov 2, 2:45 PM</span></div>
+     <p>In fairness, your read on Thursday was clear: <b>"it doesn't feel like I'm dodging it. If I don't have the energy I'm not going to like the videos."</b> That's a real answer and I'm taking it as one. And on Friday you named it before I could: <b>"I still have not done my 2 minutes from the heart."</b></p>
+     <p>But [[trip2|Tripwire 2]] was written for exactly this shape: everything new gets built, and the one thing that needs your face waits. Peter's teaching has a permanent home now. Your own voice is still waiting for its first take.</p>`,
+   zing:`[[robe|The robe]] has a new outfit this week: a beautifully organised Google Drive. It's very convincing. It even has numbered folders.`},
+  {ic:'moon',k:'#C48BC4',num:'Shadow 2 · The pattern under the pattern',h:'The dream journal is holding the door',
+   body:`<p>The old loop ran on two mornings this week, Tuesday and Friday. <b>Both started the same way:</b> a dream before dawn, the phone in your hand to record it, and the phone still in your hand in the bathroom afterwards. On Wednesday and Thursday the phone didn't go in with you, and those mornings stayed clean. The second opening was last week's key: the house going quiet once Pixie leaves on the school run.</p>
+     <p>And on Thursday it knocked in broad daylight, and you didn't answer: <b>"That's not ultimately what I want."</b></p>`,
+   zing:`Your most sacred practice and your oldest loop are sharing a device and a room. [[doorway|One of them needs its own doorway.]]`},
+  {ic:'laptop',k:'#8FB0F0',num:'Shadow 3 · The one you asked me to hold you to',h:'Ten days to the new website',
+   body:`<p>Last week: sixteen days and no build list. This week the Wednesday meeting slid to Thursday and then to <b>Monday Nov 2 at 1:30 PM</b>, and there's still no build list in the record. From today it's <b>ten days to Nov 10.</b> Last week's question 5, whether Nov 10 still holds, has no answer on the page yet.</p>
+     <p>Friday's close had the will in it: <b>"really cranking on the website even if I have to do it without Tyler's help."</b> That's a real intention. It isn't a date yet.</p>`,
+   zing:`The $555 rate is standing at the door in a nice outfit, waiting for a website that's still deciding what to wear.`}
+];
+const SR4=[
+  `<b>The target, set Oct 26</b>: at least 2 two-minute videos this week, starting with Monday's 10:00 AM block. <b>The calendar</b>: moved to Wednesday afternoon, then Thu 9:15 AM, then Mon Nov 2 2:45 PM. <b>Thursday's close</b>: <q>it doesn't feel like I'm dodging it. If I don't have the energy I'm not going to like the videos.</q> And the commitment: done no later than Monday, regardless of energy. <b>Friday's close</b>: <q>I still have not done my 2 minutes from the heart.</q> <b>The same week</b>: The Wizard (13 tabs, 20 calls, 328 entries), Four by Four and its skill, 25 Halloween films, the Purge Journal, Gmail and Drive.`,
+  `<b>Tue Oct 27</b>: <q>After I recorded that dream I was in the bathroom with my phone and then was looking through Instagram.</q> Then: <q>I'm aware of it. I would like to not have that be my default mode and that is okay. I'm not really going to beat myself up for it.</q> <b>Wed Oct 28</b>: <q>No phone, the first time or the second time.</q> <b>Thu Oct 29</b>: <q>I couldn't really remember them enough to take my phone into the bathroom.</q> <b>Fri Oct 30</b>: <q>Remembered both dreams, dictated both dreams, recorded both dreams.</q> Then: <q>Why do I keep going back into this thing?</q> The detail stays in your journal.`,
+  `<b>Your ask, Oct 15</b>: <q>hold me accountable to have my website fully launched by that second Tuesday in November.</q> <b>This week's target</b>: the build list set to Nov 10 at the Wed Oct 28 Tyzen meeting. <b>Thursday's close</b>: the Tyzen meeting moved to Mon Nov 2, 1:30 PM, the website row with it. <b>Friday's close</b>: <q>really cranking on the website even if I have to do it without Tyler's help.</q> The new rates start the day after launch.`
+];
+document.getElementById('n4-shadowCards').innerHTML=S4.map((s,i)=>`<article class="card${s.wide?' wide2':''}" style="--k:${s.k}"><div class="top"><div class="ico">${I(s.ic,22)}</div><div><div class="num">${s.num}</div><h3>${s.h}</h3></div></div>${gl(s.body)}<p class="zing">${gl(s.zing)}</p>${SR4[i]?`<details><summary>The receipt</summary><div class="receipt">${SR4[i]}</div></details>`:''}</article>`).join('');
+document.getElementById('n4-fairIc').innerHTML=I('scale',26);
+document.getElementById('n4-askIc').innerHTML=I('scale',22);
+document.getElementById('n4-notesIc').innerHTML=I('check',22);
+
+/* Threads */
+const T4=[
+  ['throat','#F2C230','The first person','Your full name on the From line, your number on the booking page, a no to $100 in your own words.','Your own face on camera, the most first-person thing there is, waited all week.','The From line was the rehearsal. Monday at 2:45 PM is the show.'],
+  ['coin','#D9A648','Abundance, arriving','The money prayer closes every entry, and this week it came with receipts: November covered, Finances a 6, a new client paying the same day, the price held.','Friday, in your words: "I have 2 paid appointments in my calendar... so I\'m running a little bit light." The declaring is loud. The forward calendar is quiet.','The prayer is the seed. The pitches, the videos and the website are the field. Question 4.'],
+  ['heart','#E58BB0','Receiving','Tuesday, on a call, you heard "You\'re having a hard time receiving this," and instead of guiding, you sat with it and received. Thursday Pixie thanked you for making her walk.','[[helpthread|The help thread]] runs through your dreams too. You give help beautifully. Taking it is the newer muscle.','Austin lands today for about a month. Question 5.'],
+  ['leaf','#5FC0AE','The body sets the pace','Nap, long walk, Spider-Man at 7:30, yoga when it asked. Four days of listening.','The body talks at the table too: two and a half mugs of shake "instead of just throwing it away," and a stomach that let you know.','Same listening, smaller mug. And you asked about the tostadas, so the number is above.'],
+  ['wave','#8FB0F0','The clearing','13,270 emails, 876 Drive moves, the spam line, a purge journal for anyone to use.','The clearing took Friday\'s Monthly Reflection slot. Clearing is the best warm-up there is, and it can quietly eat the main event.','Clear the desk, then sit at it. This morning\'s reflection is the first test.'],
+  ['crown','#AC9FF2','Choosing good, chasing great','Dream #206 was Kobe and greatness. On Wednesday you answered all four September questions, and the piece started forming: men chasing greatness against men choosing good.','No shape yet, on purpose. A teaching held long enough turns into a very wise diary.','It was suggested as your first two-minute video. Maybe the first take is just the question.']
+];
+document.getElementById('n4-threads').innerHTML=T4.map(([ic,c,h,l,s,so])=>`<article class="thread" style="--h:${c}"><div class="th"><div class="ico">${I(ic,20)}</div><h4>${h}</h4></div>
+  <div class="pair"><div class="side l"><small>The light</small>${gl(l)}</div><div class="link">${I('thread',18)}</div><div class="side s"><small>The shadow</small>${gl(s)}</div></div>
+  <p class="so"><b>So</b>${gl(so)}</p></article>`).join('');
+document.getElementById('n4-mi1').innerHTML=I('check',16);document.getElementById('n4-mi2').innerHTML=I('search',16);document.getElementById('n4-mi3').innerHTML=I('alert',16);document.getElementById('n4-mi4').innerHTML=I('leaf',16);
+
+/* Questions */
+const Q4=[
+  {lead:true,c:'2 minutes from the heart: four calendar blocks, no recordings yet. Your commitment is Monday at 2:45 PM, energy or not.',a:'[[sacral|Gut, not head]]: what\'s the first sentence of the first video? Say it in chat today, and Monday only has to press record.',
+   ref:`<h5>Where this comes from</h5><ol><li><b>The target, Oct 26:</b> at least 2 videos this week. None recorded.</li><li><b>Thursday's close:</b> done no later than Monday, regardless of energy.</li><li><b>Friday's close:</b> <q>I still have not done my 2 minutes from the heart.</q></li><li>The first topic suggested at the weekly review was <i>choosing good, not chasing great</i>, and it's yours to swap. The reading is <a href="#n4-shadow">Shadow 1</a>.</li></ol>`},
+  {c:'The old loop ran on the two mornings the phone went into the bathroom to record a dream.',a:'Where does the phone sleep from tonight, and what records the dream instead?',
+   ref:`<h5>Where this comes from</h5><ol><li><b>Tuesday and Friday:</b> a dream recorded on the phone before dawn, then the loop.</li><li><b>Wednesday and Thursday:</b> the phone didn't go in, and the mornings stayed clean.</li><li>The dreams matter: #203 to #207 all landed this week. The question is only which device carries them. The reading is <a href="#n4-shadow">Shadow 2</a>.</li></ol>`},
+  {c:'Ten days to Nov 10. The Tyler meeting is Monday at 1:30 PM. Last week\'s question 5 is still open.',a:'Is Monday\'s job a build list for Nov 10, or a new date chosen on purpose?',
+   ref:`<h5>Where this comes from</h5><ol><li><b>Oct 15, your words:</b> <q>hold me accountable to have my website fully launched by that second Tuesday in November.</q></li><li><b>Friday's close:</b> <q>really cranking on the website even if I have to do it without Tyler's help.</q></li><li>The prices switch the day after launch, so the date carries $555 and $777 with it. A moved date is a decision, not a failure.</li></ol>`},
+  {c:'Friday: "I have 2 paid appointments in my calendar... so I\'m running a little bit light." Same entry: November is covered.',a:'Who are three people you\'d love to sit with in November, and do they know it yet?',
+   ref:`<h5>Where this comes from</h5><ol><li><b>Fri Oct 30 entry:</b> <q>November is locked and loaded.</q> And in the same breath, <q>I'm running a little bit light.</q></li><li><b>Every entry this week</b> closes with the money prayer.</li><li>[[voice|Voice converts, text doesn't]]: the fastest fill for a light calendar has always been a conversation, not a campaign.</li></ol>`},
+  {c:'Tuesday you heard "You\'re having a hard time receiving this," and you received it. Austin lands today and stays about a month.',a:'What do you want to receive from Austin\'s month here, and have you said it to him?',
+   ref:`<h5>Where this comes from</h5><ol><li><b>Tue Oct 27:</b> <q>She said, "You're having a hard time receiving this," and I was like, "Damn, she's right, spot on."</q></li><li><b>Fri Oct 30:</b> The Way of Mastery with Austin moved a second Friday, and you started it on your own.</li><li><b>Today:</b> Austin lands at Liberia at 12:45 PM.</li></ol>`},
+  {c:'Last week you wrote that you wanted some morning walks alone with the birds. This week Pixie asked to walk every morning, and you said yes.',a:'Did the sentence about the birds ever get said, or did the walk get shared before you got to it?',
+   ref:`<h5>Where this comes from</h5><ol><li><b>Tue Oct 20:</b> <q>Being able to find time and space where I can have that opportunity to be alone, to be by myself, and just being able to ask for it.</q></li><li><b>Wed Oct 28:</b> <q>She wants to go and do that walk every morning so maybe we'll be walking now from 6:00 or 6:15.</q></li><li>Both can be true: shared walks most mornings, and one that's yours. Last week's reading is review no. 3's Shadow 2, folded below.</li></ol>`}
+];
+document.getElementById('n4-qs').innerHTML=Q4.map(q=>`<div class="q${q.lead?' lead':''}" tabindex="0" role="button" aria-expanded="false"><div><p class="ctx">${q.c}</p><p class="ask">${gl(q.a)}</p>${q.ans?`<p class="ans"><b>Your answer · ${q.on}</b>${q.ans}</p>`:''}<span class="hint">${I('search',13)}<span class="lbl">See the reference</span></span><div class="ref"><div><div class="refin">${gl(q.ref)}</div></div></div></div></div>`).join('');
+document.getElementById('n4-qs').addEventListener('click',e=>{if(e.target.closest('.t[data-g],a'))return;const q=e.target.closest('.q');if(!q)return;const o=q.classList.toggle('open');q.setAttribute('aria-expanded',o);q.querySelector('.lbl').textContent=o?'Hide the reference':'See the reference';});
+document.getElementById('n4-qs').addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('q')){e.preventDefault();e.target.click();}});
+
+/* Owe */
+const O4=[
+  ['Today, Sat Oct 31',[
+    ['refl','The October Monthly Reflection','Moved here from Friday on your word. The reminder fires at 10:00 AM.','This morning',true],
+    ['aus','Check the Houston leg, then pick up Austin','Southwest app first. Lands at Liberia 12:45 PM, out around 1:30 to 1:45 PM.','12:45 PM'],
+    ['ans','Answer my six questions in chat','I\'ll put your words under each one. Question 1 takes one sentence.','Today'],
+    ['close','Type /close in chat','So this review gets logged.','Today']]],
+  ['Sunday, Nov 1',[
+    ['wr','Run /weekly-review for Oct 26 to Nov 1','This page is its head start.','Sun']]],
+  ['Monday, Nov 2',[
+    ['heart','2 minutes from the heart: the first two','Your commitment, energy or not. Question 1 hands you the first sentence.','Mon 2:45 PM',true],
+    ['site','Tyler: the website and the Blueprint passcodes','With or without him, in your words. Question 3 is the decision.','Mon 1:30 PM',true],
+    ['pod','Podcast follow-ups, if the three new shows stay quiet','Sage drafts, you say OK.','Nov 2 to 4']]],
+  ['November',[
+    ['live','Your new website, fully live','Unless Monday moves the date on purpose. $555 and $777 start the day after.','Tue Nov 10',true]]],
+  ['When you have two minutes',[
+    ['mov','Say "go" for the two movies','A Quiet Place Part II at 4.2, Love and Monsters on the watch list. I\'ll do the rest.','Whenever'],
+    ['dup','Look over the 824 Drive duplicates','3.2 GB, held, not deleted. Your hand decides.','Whenever'],
+    ['spam','Switch on the Pixel and Fi spam settings','The steps are in Friday\'s chat.','Whenever'],
+    ['wave','The Wave payout account','Still blocked on the Costa Rica bank country. Your move, whenever you choose.','Due today']]]
+];
+const KEY4='sage-jr-2026-10-31';
+const saved4=JSON.parse(localStorage.getItem(KEY4)||'{}');
+document.getElementById('n4-oweList').innerHTML=O4.map(([g,items])=>`<div class="grp">${g}</div>${items.map(([id,b,s,d,hot])=>`<label class="item${saved4[id]?' done':''}"><input type="checkbox" data-id="${id}"${saved4[id]?' checked':''}><div><b>${b}</b><span>${s}</span></div><span class="due${hot?' hot':''}">${d}</span></label>`).join('')}`).join('');
+function prog4(){const all=[...document.querySelectorAll('#n4-oweList input')],n=all.filter(x=>x.checked).length;document.getElementById('n4-progbar').style.width=(n/all.length*100)+'%';document.getElementById('n4-progcount').textContent=`${n} of ${all.length} done`;}
+document.getElementById('n4-oweList').addEventListener('change',e=>{const x=e.target;if(!x.dataset.id)return;saved4[x.dataset.id]=x.checked;localStorage.setItem(KEY4,JSON.stringify(saved4));x.closest('.item').classList.toggle('done',x.checked);prog4();});
+prog4();
+
+/* Reveal for review no. 4, with a fallback so nothing stays hidden if the watcher never fires */
+const n4els=[...document.querySelectorAll('#n4-lightCards .card,#n4-shadowCards .card,#n4-threads .thread,#n4-qs .q,#n4-asked .card')];
+if('IntersectionObserver' in window){const io4=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io4.unobserve(e.target);}}),{threshold:.1});n4els.forEach((el,i)=>{el.style.transitionDelay=(i%4)*70+'ms';io4.observe(el);});}
+setTimeout(()=>n4els.forEach(el=>el.classList.add('in')),1800);
+/* Opening review no. 3 reveals its cards too */
+document.getElementById('r3').addEventListener('toggle',e=>{if(e.target.open)setTimeout(()=>e.target.querySelectorAll('.card,.thread,.q').forEach(el=>el.classList.add('in')),400);});
+if(location.hash==='#r3'||location.hash.indexOf('#n3-')===0)document.getElementById('r3').open=true;
 </script>
 </body>
 </html>
